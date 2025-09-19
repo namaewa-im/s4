@@ -78,6 +78,7 @@ layer = {
     "lstm":       "src.models.baselines.lstm.TorchLSTM",
     "standalone": "models.s4.s4.S4Block",
     "s4d":        "models.s4.s4d.S4D",
+    "ds4d":       "models.s4.ds4d.DS4D",
     "ffn":        "src.models.sequence.modules.ffn.FFN",
     "sru":        "src.models.sequence.rnns.sru.SRURNN",
     "rnn":        "src.models.sequence.rnns.rnn.RNN",  # General RNN wrapper
